@@ -1,0 +1,3 @@
+Dessa exempel visar hur du kan skapa och använda funktioner, inklusive arrow-funktioner,
+samt hur variabler och deras synlighet påverkas av scope.
+Return används för att skicka tillbaka värden från en funktion.

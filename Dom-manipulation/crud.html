@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DOM CRUD</title>
+  </head>
+  <body>
+    <!--OBS!!! DESSA EXEMPEL KAN ÄVEN SKRIVAS I JAVASCRIPT, OCH LÄNKAS IN MED SCRIPT!-->
+
+    <!--(1)CREATE-->
+    <script>
+      // Skapa ett nytt element
+      const newElement = document.createElement("p");
+
+      // Lägg till text i det nya elementet
+      newElement.textContent = "Detta är ett nytt element.";
+
+      // Lägg till det nya elementet i body
+      document.body.appendChild(newElement);
+    </script>
+
+    <!------------------------------------------------------------------------------------>
+
+    <!--(2)READ-->
+    <script>
+      // Läs innehållet från ett befintligt element
+      const existingElement = document.getElementById("existingElement");
+      console.log(existingElement.textContent);
+    </script>
+
+    <p id="existingElement">Detta är ett befintligt element.</p>
+
+    <!----------------------------------------------------------------------------------------->
+
+    <!--(3)UPDATE-->
+    <script>
+      // Uppdatera innehållet i ett befintligt element
+      const existingElement2 = document.getElementById("existingElement2");
+      existingElement2.textContent = "Uppdaterat innehåll!";
+    </script>
+
+    <p id="existingElement2">Detta är ett befintligt element.</p>
+
+    <!------------------------------------------------------------------------------------------->
+
+    <!--(4)DELETE-->
+    <script>
+      // Ta bort ett befintligt element
+      const elementToRemove = document.getElementById("elementToRemove");
+      elementToRemove.remove();
+    </script>
+
+    <p id="elementToRemove">Detta element kommer att tas bort.</p>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fetch och Skapa HTML</title>
+  </head>
+  <body>
+    <!--OBS!!! DETTA EXEMPEL KAN ÄVEN SKRIVAS I JAVASCRIPT, OCH LÄNKAS IN MED SCRIPT!-->
+    <script>
+      // Hämta data från nätet
+      fetch("https://jsonplaceholder.typicode.com/todos/1")
+        .then((response) => response.json())
+        .then((data) => {
+          // Skapa ett nytt element baserat på den hämtade datan
+          const newElement = document.createElement("p");
+          newElement.textContent = `Title: ${data.title}, Completed: ${data.completed}`;
+          document.body.appendChild(newElement);
+        })
+        // Om det skulle vara något fel på anropet så fångas det upp och skriver ut ett meddelande
+        .catch((error) => console.error(error));
+    </script>
+  </body>
+</html>

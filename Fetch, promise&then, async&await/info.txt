@@ -1,0 +1,39 @@
+I dessa exempel används fetch för att hämta data från en API och hantera det med Promise, then, och async/await.
+fetch returnerar en Promise som representerar resultatet av HTTP-förfrågan. 
+Med then och catch kan du hantera resultatet eller eventuella fel.
+
+async/await är en modernare syntaktiskt sockel som gör asynkron kod mer läsbar och liknar synkron kod.
+I det andra exemplet används async function och await för att göra koden mer synkron och hantera asynkronitet på ett mer läs-vänligt sätt.
+
+--------------------------------------------------------------------------------------------------------
+
+***PROMISE & THEN***
+
+PROMISE:
+En Promise är ett objekt som representerar resultatet (eller misslyckandet) av en asynkron operation. 
+Den har tre möjliga tillstånd: pending (avvaktande), fulfilled (uppfyllt), eller rejected (avvisat). 
+När en asynkron operation slutförs, övergår promise-objektet från avvaktande till antingen uppfyllt eller avvisat.
+
+THEN:
+then är en metod som används med Promise-objekt för att definiera vad som ska hända när en promise blir uppfylld (resolved)
+ eller avvisad (rejected). Det används för att kedja samman olika hanteringsfunktioner för resultatet av en asynkron operation.
+
+
+Sammanfattning: en Promise är ett objekt som representerar resultatet av en asynkron operation
+och then används för att definiera hur resultatet eller felet av en promise ska hanteras. 
+De arbetar tillsammans för att hantera asynkronitet och göra koden mer läsbar och underhållbar.
+
+--------------------------------------------------------------------------------------------------------------------
+
+***ASYNC & AWAIT***
+
+ASYNC (funktion):
+När du deklarerar en funktion med async-nyckelordet, innebär det att funktionen kommer att returnera en Promise.
+Du kan använda await inuti denna funktion för att vänta på att en Promise ska slutföras. 
+
+AWAIT (operator):
+await används inuti en async-funktion för att vänta på att en Promise ska slutföras innan koden fortsätter exekveringen.
+Det gör koden inuti funktionen mer synkron och läsbar.
+
+Sammanfattning: async/await gör asynkron kod mer läsbar och liknar synkron kod, vilket gör det enklare att hantera och underhålla. 
+Det används ofta i kombination med fetch, Promise, och andra asynkrona operationer i JavaScript.

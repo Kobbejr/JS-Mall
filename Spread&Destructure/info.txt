@@ -1,0 +1,3 @@
+Dessa exempel visar användningen av spread (...) och destructuring för både arrayer och objekt i JavaScript.
+Spread används för att kopiera eller kombinera element, medan destructuring används
+för att extrahera värden eller egenskaper och tilldela dem till variabler.

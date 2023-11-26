@@ -1,0 +1,8 @@
+HÄR ÄR EN BLANDNING AV OLIKA EXEMPEL AV DOM_MANIPULATION. 
+GLÖM INTE ATT SAMTLIGA SCRIPT-KODER I HTML-EXEMPLEN HADE KUNNAT SKRIVAS I JAVASCRIPT MED TILLHÖRANDE LÄNKAR I HTML.
+
+- I "crud.html" utförs CRUD-operationer på HTML-element med hjälp av JavaScript.
+- I "fetch.html" hämtas data från nätet och används för att skapa nya HTML-element.
+- I "eventClick.html" skapas en eventlyssnare för en knapp som reagerar på klick-händelsen och visar en varningsruta.
+
+- I "eventsList.js" finns en lista över vanliga eventlyssnare
