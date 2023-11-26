@@ -1,3 +1,5 @@
+//*******EN SAMMANFATTNINGA AV OPERATORER*******
+
 //***MATTEOPERATORER***
 
 // 1. Addition (+):

@@ -98,3 +98,5 @@ numbers.splice(2, 1); // Ta bort ett element från index 2
 
 // Ta bort från en array av objekt
 students.pop(); // Ta bort det sista objektet från arrayen
+
+//
