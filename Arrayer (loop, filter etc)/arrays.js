@@ -62,3 +62,5 @@ let evenNumbers = numbers.filter(function (number) {
 });
 console.log(evenNumbers);
 // Resultat: [2, 4]
+
+//
