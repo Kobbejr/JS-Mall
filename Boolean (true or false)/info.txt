@@ -1,0 +1,15 @@
+Boolean är en datatyp som representerar två värden: true och false.
+Denna datatyp är central för beslutstagning och kontrollflöden i programmeringsspråk.
+Exempel finns i js-koderna.
+
+
+Det används också för att utvärdera jämförelser och logiska operatorer:
+EXEMPEL PÅ DETTA:
+let x = 5;
+let y = 10;
+
+let isEqual = x === y; // false
+let isNotEqual = x !== y; // true
+
+let isGreater = x > y; // false
+let isLessOrEqual = x <= y; // true

@@ -1,0 +1,2 @@
+Dessa exempel illustrerar hur du kan utföra CRUD-operationer på arrayer, loopa igenom arrayer med for, forEach, och map,
+samt filtrera en array med filter. Användningen av dessa metoder beror på ditt specifika användningsfall och krav.

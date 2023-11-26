@@ -1,0 +1,70 @@
+***VARIABLER I JAVASCRIPT***
+
+
+1. BOOLEAN:
+
+Representerar en logisk sanning eller falskhet (true eller false).
+Används ofta för villkorliga uttryck och styrningsflöden.
+
+let isTrue = true;
+let isFalse = false;
+
+--------------------------------------------------------
+
+2. NULL:
+
+Representerar frånvaron av ett värde eller ett tomt värde.
+Används när du avsiktligt vill att en variabel inte ska ha något värde.
+
+let myNullVariable = null;
+
+-----------------------------------------------------------
+
+3. UNDEFINED:
+
+Indikerar att en variabel har deklarerats men inte tilldelats ett värde.
+Vanligtvis det initiala värdet för variabler.
+
+let myUndefinedVariable;
+
+--------------------------------------------------------------
+
+4. STRING:
+
+Representerar text och skrivs inom enkla eller dubbla citattecken.
+Används för att lagra och manipulera textdata.
+
+let myString = "Detta är en sträng.";
+
+----------------------------------------------------------------
+
+5. NUMBER:
+
+Representerar numeriska värden, både heltal och flyttal.
+Används för matematiska operationer och beräkningar.
+
+let myNumber = 42;
+let myFloat = 3.14;
+
+-------------------------------------------------------------------
+
+6. OBJECT:
+
+En samling av nyckel-värde-par, där varje nyckel är unik.
+Kan innehålla olika datatyper och funktioner.
+
+let myObject = {
+  key1: "värde1",
+  key2: 42,
+  key3: true
+};
+
+----------------------------------------------------------------------
+
+7. ARRAY:
+
+En ordnad lista av värden, där varje element har en indexposition.
+Används för att hantera och lagra flera värden i en variabel.
+
+let myArray = [1, 2, 3, "fyra", true];
+
